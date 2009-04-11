@@ -17,6 +17,13 @@ BuildRequires: perl(LaTeX::Driver)
 BuildRequires: perl(LaTeX::Encode)
 BuildRequires: perl(LaTeX::Table)
 BuildRequires: perl(Template)
+BuildRequires: perl(Class::Accessor)
+BuildRequires: perl(Test::NoWarnings)
+BuildRequires: perl(Moose::Policy) perl(Moose)
+BuildRequires: perl(Class::MOP)
+BuildRequires: perl(Sub::Identify)
+BuildRequires: perl(Devel::GlobalDestruction)
+BuildRequires: perl(Sub::Name)
 
 BuildArch: noarch
 
