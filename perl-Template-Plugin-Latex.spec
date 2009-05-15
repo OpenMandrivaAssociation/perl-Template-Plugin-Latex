@@ -1,7 +1,7 @@
 
 %define realname   Template-Plugin-Latex
 %define version    3.02
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{realname}
 Version:    %{version}
