@@ -1,9 +1,8 @@
-%define upstream_name    Template-Plugin-Latex
-%define upstream_version 3.02
+%define upstream_name    Template-Plugin-Latex%define upstream_version 3.05
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	LaTeX plugin for the Template Toolkit
 License:	GPL+ or Artistic
@@ -73,4 +72,5 @@ make test
 
 * Sat Apr 11 2009 cpan2dist 3.02-1mdv
 - initial mdv release, generated with cpan2dist
+
 
